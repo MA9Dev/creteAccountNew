@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/style/styles.css">
+</head>
+<body>
+<div class="container">
+        <div class="box_bar">
+        <div class="steps">
+            <div class="div1">
+            <span class="square active">1</span>
+            <span class="header_text">ACCOUNT SETUP</span>
+            </div>
+            <div class="div2">
+            <span class="square">2</span>
+            <span class="header_text">SOCIAL PROFILES</span>
+            </div>
+            <div class="div3">
+            <span class="square">3</span>
+            <span class="header_text">PERSONAL DETAILS</span>
+            </div>
+            <div class="progress_bar">
+                <span class="indicator"></span>
+            </div>
+        </div>
+        </div>
+<!--    <div class="pages">-->
+<!--        <div class="page" id="first_header"><span>1</span><span class="header_text">ACCOUNT SETUP</span></div>-->
+<!--        <div class="page" id="second_header"><span>2</span><span class="header_text">SOCIAL PROFILES</span></div>-->
+<!--        <div class="page" id="third_header"><span>3</span><span class="header_text">PERSONAL DETAILS</span></div>-->
+<!--    </div>-->
+<!--    <form id="unic">-->
+    <div class="level1 slides ">
+        <h3>CREATE YOUR ACCOUNT</h3><p>This is step 1</p>
+        <input type="email" placeholder="Email" id="email" >
+        <div id="email_check"></div>
+        <input type="password" placeholder="Password" autocomplete="on" id="pass" >
+        <div id="password_check"></div>
+        <input type="password" placeholder="Confirm Password" autocomplete="on" id="pass_confirm">
+        <div id="confirm_password_check"></div>
+        <div class="btns">
+        <button id="next1">NEXT</button>
+        </div>
+    </div>
+<!--    </form>-->
+    <div class="level2 slides mask">
+        <h3>SOCIAL PROFILES</h3><p>Your presence on the social network</p>
+        <input type="text" placeholder="Twitter">
+        <input type="text" placeholder="Facebook">
+        <input type="text" placeholder="Google Plus">
+        <div class="btns">
+            <button id="prev1">PREVIOUS</button>
+            <button id="next2">NEXT</button>
+        </div>
+    </div>
+
+    <div class="level3 slides mask ">
+        <h3>PERSONAL DETAILS</h3><p>We will never sell it</p>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="tel" placeholder="Phone">
+        <textarea class="textarea" placeholder="Adress">Adress</textarea>
+        <div class="btns">
+            <button id="prev2">PREVIOUS</button>
+            <button id="submit">SUBMIT</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+<script src="script/script.js"></script>
+</body>
+</html>
